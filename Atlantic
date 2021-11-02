@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+#oceansOne {
+  position: absolute;
+  left: 950px;
+  top: 5px;
+}
+#islandsOne {
+  position: absolute;
+  left: 950px;
+  top: 190px;
+}
+#countriesOne {
+  position: absolute;
+  left: 950px;
+  top: 450px;
+}
+#citiesOne {
+  position: absolute;
+  left: 950px;
+  top: 620px;
+}
+#regionsOne {
+  position:absolute;
+  left: 950px;
+  top: 810px;
+
+}
+#tr_id {
+  position: relative;
+  top: 700px;
+  left: 400px;
+}
+
+img {
+  
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+#mediterranean {
+        position: relative;
+        width: 120px;
+        height: 15px;
+        
+        border: 2px dotted blue;
+        top: 320px;
+        right: -820px;
+    }
+  #sar {
+    width: 120px;
+    height: 15px;
+    border: 2px dotted blue;
+    position: relative;
+    top: 375px;
+    left: 270px;
+  }
+
+  #north {
+    width: 120px;
+    height: 15px;
+    border: 2px dotted blue;
+    position: relative;
+    top: 20px;
+    left: 780px;
+  }
+  #mexico {
+        width: 100px;
+        height: 15px;
+        border: 2px dotted blue;
+        position: relative;
+        top:  350px;
+        left: 40px;  
+   }
+  #carribean {
+    width: 120px;
+    height: 15px;
+    border: 2px dotted blue;
+    position: relative;
+    top: 400px;
+    left: 130px;
+  }
+
+  #guinea {
+    width: 140px;
+    height: 15px;
+    border: 2px dotted blue;
+    position: relative;
+    top: 460px;
+    left: 750px;
+
+  }
+  #jamaica {
+        width: 60px;
+        height: 15px;
+        border: 2px double red;
+        position: relative;
+        top: 423px;
+        left: 130px;
+
+    }
+    .line3 {
+      width: 100px;
+      height: 0px;
+      position: absolute;
+      border: 1px solid red;
+      top: 635px;
+      left: 145px;
+      transform: rotate(90deg);
+      
+    }
+  #cuba {
+    width: 70px;
+    height: 15px;
+    border: 2px double red;
+    position: relative;
+    top: 245px;
+    left: 130px;
+  }
+  .line2 {
+    height: 0px;
+    width: 120px;
+    position: relative;
+    top: 260px;
+    left: 240px;
+    border: 1px solid red;
+  }
+  #hispanola {
+    width: 95px;
+    height: 15px;
+    border: 2px double red;
+    position: relative;
+    top: 242px;
+    left: 270px
+  }
+  #azores {
+        width: 75px;
+        height: 15px;
+        border: 2px double red;
+        position: relative;
+        top: 20px;
+        left: 580px;
+    }
+  #madeira {
+    width: 90px;
+    height: 15px;
+    border: 2px double red;
+    position: relative;
+    top: 30px;
+    left: 590px;
+  }
+
+  #capeverde {
+    width: 100px;
+    height: 15px;
+    border: 2px double red;
+    position: relative;
+    top: 190px;
+    left: 550px;
+  }
+  #canaries {
+        width: 90px;
+        height: 15px;
+        border: 2px double red;
+        position: relative;
+        top: -20px;
+        left: 650px;
+    }
+  #newfound {
+    width: 140px;
+    height: 15px;
+    border: 2px double red;
+    position: relative;
+    top: -340px;
+    left: 250px;
+  }
+
+  #greenland {
+    width: 140px;
+    height: 15px;
+    border: 2px double red;
+    position: relative;
+    top: -480px;
+    left: 370px;
+  }
+  #mali {
+        width: 100px;
+        height: 15px;
+        border: 2px dashed orange;
+        position: relative;
+        top: -10px;
+        left: 750px
+    }
+  #spain {
+    width: 80px;
+    height: 15px;
+    border: 2px dashed orange;
+    position: relative;
+    top: -250px;
+    left: 750px;
+  }
+
+  #portugal {
+    width: 59px;
+    height: 15px;
+    border: 2px dashed orange;
+    position: relative;
+    top: -270px;
+    left: 690px;
+  }
+  #aztec {
+        width: 60px;
+        height: 15px;
+        border: 2px dashed orange;
+        position: relative;
+        top: -90px;
+        left: 40px;
+
+    }
+  #asante {
+    width: 90px;
+    height: 15px;
+    border: 2px dashed orange;
+    position: relative;
+    top: -60px;
+    left: 750px;
+  }
+
+  #seville {
+    width: 80px;
+    height: 15px;
+    border: 2px solid grey;
+    position: relative;
+    top: -300px;
+    left: 750px;
+  }
+  .line4 {
+    position: absolute;
+    top:430px;
+    left: 760px;
+    width:50px;
+    border: 1px solid grey;
+    transform: rotate(90deg);
+  }
+  #lisbon {
+        width: 70px;
+        height: 15px;
+        border: 2px solid grey;
+        position: relative;
+        top: -460px;
+        left: 602px
+    }
+    .line{
+      width: 0px;
+      height: 80px;
+      position: relative;
+      top: -490px;
+      left: 710px;
+      border: 1px solid grey; 
+      transform: rotate(300deg);     
+    }
+  #cueta {
+    width: 40px;
+    height: 15px;
+    border: 2px double grey;
+    position: relative;
+    top: -490px;
+    left: 750px;
+  }
+
+  #london {
+    width: 60px;
+    height: 15px;
+    border: 2px double grey;
+    position:relative;
+    top: -710px;
+    left: 770px;
+    
+  }
+
+
+  #genoa {
+    width: 60px;
+    height: 15px;
+    border: 2px double grey;
+    position: relative;
+    top: -650px;
+    left: 850px;
+  }
+  #venice {
+        width: 70px;
+        height: 15px;
+        border: 2px double grey;
+        position: relative;
+        top: -670px;
+        left: 890px;
+    }
+  #main {
+    width: 100px;
+    height: 15px;
+    border: 2px double black;
+    position: relative;
+    top: -430px;
+    left: 60px;
+
+  }
+
+  #tordesillas {
+    width: 120px;
+    height: 15px;
+    border: 2px double black;
+    position: relative;
+    top: -425px;
+    left: 330px;
+
+  }
+  #north2 {
+    width: 120px;
+    height: 15px;
+    border: 2px double black;
+    position: relative;
+    top: -720px;
+    left: 10px;
+  }
+  .atlantic {
+    position: relative;
+    top: -1100px;
+    left: 1000px;
+    font-family: "Times New Roman";
+    font-size: 15px;
+  }
+  .new {
+    text-decoration: underline;
+    color: blue;
+  }
+  .new:hover {
+    height: 370px;
+    width: 500px;
+    background-image: url("https://i.ibb.co/JkLb0yh/Screen-Shot-2021-09-13-at-3-02-27-PM.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .new2 {
+    text-decoration: underline;
+    color: red;
+  }
+  .new2:hover {
+    background-image: url("https://i.ibb.co/nPwXL54/Screen-Shot-2021-09-13-at-3-04-20-PM.png");
+    height: 370px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+  }
+  .new3 {
+    text-decoration: underline;
+    color: orange;
+  }
+  .new3:hover{
+    background-image: url("https://i.ibb.co/mv8M74L/Screen-Shot-2021-09-13-at-3-04-51-PM.png");
+    height: 370px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+  }
+  .new4 {
+    text-decoration: underline;
+    color: grey;
+  }
+  .new4:hover {
+    background-image: url("https://i.ibb.co/QDtb4hn/Screen-Shot-2021-09-13-at-3-05-23-PM.png");
+    height: 370px;
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .new5 {
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+    background: black;
+    width: 110px
+  }
+  .new5:hover {
+    background-image: url("https://i.ibb.co/S7mQmRg/Screen-Shot-2021-09-13-at-3-05-42-PM.png");
+    height: 370px;
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+ .cool1 {
+   position:absolute;
+   top: 760px;
+   left: 370px;
+   
+
+ }
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+  
+
+
+
+<p>
+<input id="tr_id" type="text" name="tr_id" placeholder="Atlantic Ocean Term" draggable="true" ondragstart="drag(event)"/>
+
+</p>
+<p>
+<div id="mediterranean" ondrop="drop(event), newFunctionMed()" ondragover="allowDrop(event)"></div>
+<div></div>
+</p>
+<p>
+<div id="sar" ondrop="drop(event), newFunctionSar()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="north" ondrop="drop(event), newFunctionNorth()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="mexico" ondrop="drop(event), newFunctionMexico()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="carribean" ondrop="drop(event), newFunctionCarribean()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="guinea" ondrop="drop(event), newFunctionGuinea()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="jamaica" ondrop="drop(event), newFunctionJamaica()" ondragover="allowDrop(event)"></div>
+</p>
+<div class="line3"></div>
+<p>
+<div id="cuba" ondrop="drop(event), newFunctionCuba()" ondragover="allowDrop(event)"></div>
+<div class="line2"></div>
+</p>
+<p>
+<div id="hispanola" ondrop="drop(event), newFunctionHispanola()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="azores" ondrop="drop(event), newFunctionAzores()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="madeira" ondrop="drop(event), newFunctionMadeira()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="capeverde" ondrop="drop(event), newFunctionCapeVerde()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="canaries" ondrop="drop(event), newFunctionCanaries()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="newfound" ondrop="drop(event), newFunctionNewFound()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="greenland" ondrop="drop(event), newFunction()" ondragover="allowDrop(event)"></div>
+
+</p>
+<p>
+<div id="mali" ondrop="drop(event), newFunctionMali()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="spain" ondrop="drop(event), newFunctionSpain()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="portugal" ondrop="drop(event), newFunctionPortugal()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="aztec" ondrop="drop(event), newFunctionAztec()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="asante" ondrop="drop(event), newFunctionAsante()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="seville" ondrop="drop(event), newFunctionSeville()" ondragover="allowDrop(event)"></div>
+</p>
+<div class="line4"></div>
+<p>
+<div id="lisbon" ondrop="drop(event), newFunctionLisbon()" ondragover="allowDrop(event)"></div>
+<div class="line">
+</div>
+</p>
+<p>
+<div id="cueta" ondrop="drop(event), newFunctionCueta()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="london" ondrop="drop(event), newFunctionLondon()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="genoa" ondrop="drop(event), newFunctionGenoa()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="venice" ondrop="drop(event), newFunctionVenice()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="main" ondrop="drop(event), newFunctionMain()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="tordesillas" ondrop="drop(event), newFunctionTorde()" ondragover="allowDrop(event)"></div>
+</p>
+<p>
+<div id="north2" ondrop="drop(event), newFunctionNorthTwo()" ondragover="allowDrop(event)"></div>
+</p>
+
+
+<img src="https://d-maps.com/m/world/atlantiquenord/atlantiquenord24.gif">
+
+
+
+<div class="cool1">^^^^^Write and drag term to proper location</div>
+  <div class="cool2"></div>
+
+<ul id="oceansOne">
+  <h2>Oceans</h2>
+<li id="medOne"></li>
+<li id="sargassonOne"></li>
+<li id="northOne"></li>
+<li id=mexicoOne></li>
+<li id="carribeanOne">
+<li id="guineaOne"></li>
+</ul>
+<br>
+<ul id="islandsOne">
+  <h2>Islands</h2>
+  <li id="greenlandOne"></li>
+  <li id="jamaicaOne"></li>
+  <li id="cubaOne"></li>
+  <li id="hispanolaOne"></li>
+  <li id="azoresOne"></li>
+  <li id="madeiraOne"></li>
+  <li id="capeVerdeOne"></li>
+  <li id="canariesOne"></li>
+  <li id="newfoundOne"></li>
+</ul>
+
+<br>
+<ul id="countriesOne">
+  <h2>Countries</h2>
+  <li id="maliOne"></li>
+  <li id="spainOne"></li>
+  <li id="portugalOne"></li>
+  <li id="aztecOne"></li>
+  <li id="asanteOne"></li>
+</ul>
+<br>
+<ul id="citiesOne">
+  <h2>Cities</h2>
+  <li id="sevilleOne"></li>
+  <li id="lisbonOne"></li>
+  <li id="cuetaOne"></li>
+  <li id="londonOne"></li>
+  <li id="genoaOne"></li>
+  <li id="veniceOne"></li>
+</ul>
+
+<br>
+<ul id="regionsOne">
+  <h2>Regions</h2>
+  <li id="northTwoOne"></li>
+  <li id="mainOne"></li>
+  <li id="tordeOne"></li>
+</ul>
+
+  <script>
+
+
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.value);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    var texteSelectionne = document.createTextNode(data);
+    ev.target.appendChild(texteSelectionne);
+}
+
+function myFunction(){
+  document.getElementById("demo").innerHTML = "Mediterranean Sea";
+}
+
+function myFunctionTwo(){
+  document.getElementById("demo2").innerHTML = "Sargasson Sea";
+}
+
+function myFunctionThree(){
+  document.getElementById("demo3").innerHTML = "Carribean Sea";
+}
+
+function myFunctionFour(){
+  document.getElementById("demo4").innerHTML = "North Sea";
+}
+
+function myFunctionFive(){
+  document.getElementById("demo5").innerHTML = "Gulf of Mexico";
+}
+
+function myFunctionSix(){
+  document.getElementById("demo6").innerHTML = "Gulf of Guinea";
+}
+function myFunctionSeven(){
+  document.getElementById("demo7").innerHTML = "Jamaica";
+}
+
+function myFunctionEight(){
+  document.getElementById("demo8").innerHTML = "Cuba";
+}
+
+function myFunctionNine(){
+  document.getElementById("demo9").innerHTML = "Hispanola";
+}
+
+function myFunctionTen(){
+  document.getElementById("demo10").innerHTML = "Azores";
+}
+
+function myFunctionEleven(){
+  document.getElementById("demo11").innerHTML = "Madeira";
+}
+
+function myFunctionTwelve(){
+  document.getElementById("demo12").innerHTML = "Cape Verde";
+}
+function myFunctionThirteen(){
+  document.getElementById("demo13").innerHTML = "Canaries";
+}
+function myFunctionFourteen(){
+  document.getElementById("demo14").innerHTML = "Newfoundland";
+}
+function myFunctionFifteen(){
+  document.getElementById("demo15").innerHTML = "Greenland";
+}
+function myFunctionSixteen(){
+  document.getElementById("demo16").innerHTML = "Mali";
+}
+
+function myFunctionSeventeen(){
+  document.getElementById("demo17").innerHTML = "Spain";
+}
+function myFunctionEighteen(){
+  document.getElementById("demo18").innerHTML = "Portugal";
+}
+function myFunctionNineteen(){
+  document.getElementById("demo19").innerHTML = "Aztec";
+}
+function myFunctionTwenty(){
+  document.getElementById("demo20").innerHTML = "Asante";
+}
+function myFunctionTwentyOne(){
+  document.getElementById("demo21").innerHTML = "Seville";
+}
+function myFunctionTwentyTwo(){
+  document.getElementById("demo22").innerHTML = "Lisbon";
+}
+function myFunctionTwentyThree(){
+  document.getElementById("demo23").innerHTML = "Cueta";
+}
+function myFunctionTwentyFour(){
+  document.getElementById("demo24").innerHTML = "London";
+}
+function myFunctionTwentyFive(){
+  document.getElementById("demo25").innerHTML = "Genoa";
+}
+
+function myFunctionTwentySix(){
+  document.getElementById("demo26").innerHTML = "Venice";
+}
+function myFunctionTwentySeven(){
+  document.getElementById("demo27").innerHTML = "The Spanish Main";
+}
+function myFunctionTwentyEight(){
+  document.getElementById("demo28").innerHTML = "Tordesillas Line";
+}
+function myFunctionTwentyNine(){
+  document.getElementById("demo29").innerHTML = "North America";
+}
+
+
+
+
+
+
+function newFunction(){
+  document.getElementById("greenlandOne").innerHTML = "Correct answer: Greenland";
+}
+
+function newFunctionMed(){
+  document.getElementById("medOne").innerHTML = "Correct answer: Mediterranean Sea";
+}
+
+function newFunctionSar(){
+  document.getElementById("sargassonOne").innerHTML = "Correct answer: Sargasson";
+}
+
+function newFunctionNorth(){
+  document.getElementById("northOne").innerHTML = "Correct answer: North Sea";
+}
+
+function newFunctionCarribean(){
+  document.getElementById("carribeanOne").innerHTML = "Correct answer: Carribean Sea";
+}
+
+function newFunctionGuinea(){
+  document.getElementById("guineaOne").innerHTML = "Correct answer: Gulf of Guinea";
+}
+
+function newFunctionJamaica(){
+  document.getElementById("jamaicaOne").innerHTML = "Correct answer: Jamaica";
+}
+
+function newFunctionCuba(){
+  document.getElementById("cubaOne").innerHTML = "Correct answer: Cuba";
+}
+
+function newFunctionMexico(){
+  document.getElementById("mexicoOne").innerHTML = "Correct answer: Gulf of Mexico";
+}
+
+
+function newFunctionHispanola(){
+  document.getElementById("hispanolaOne").innerHTML = "Correct answer: Hispanola";
+}
+
+function newFunctionAzores(){
+  document.getElementById("azoresOne").innerHTML = "Correct answer: Azores";
+}
+
+function newFunctionMadeira(){
+  document.getElementById("madeiraOne").innerHTML = "Correct answer: Madeira";
+}
+
+function newFunctionCapeVerde(){
+  document.getElementById("capeVerdeOne").innerHTML = "Correct answer: Cape Verde";
+}
+
+function newFunctionCanaries(){
+  document.getElementById("canariesOne").innerHTML = "Correct answer: Canaries";
+}
+
+function newFunctionNewFound(){
+  document.getElementById("newfoundOne").innerHTML = "Correct answer: Newfoundland";
+}
+
+function newFunctionMali(){
+  document.getElementById("maliOne").innerHTML = "Correct answer: Mali";
+}
+
+function newFunctionSpain(){
+  document.getElementById("spainOne").innerHTML = "Correct answer: Spain";
+}
+
+
+
+function newFunctionPortugal(){
+  document.getElementById("portugalOne").innerHTML = "Correct answer: Portugal";
+}
+
+function newFunctionAztec(){
+  document.getElementById("aztecOne").innerHTML = "Correct answer: Aztec";
+}
+
+function newFunctionAsante(){
+  document.getElementById("asanteOne").innerHTML = "Correct answer: Asante";
+}
+
+function newFunctionSeville(){
+  document.getElementById("sevilleOne").innerHTML = "Correct answer: Seville";
+}
+
+function newFunctionLisbon(){
+  document.getElementById("lisbonOne").innerHTML = "Correct answer: Lisbon";
+}
+
+function newFunctionCueta(){
+  document.getElementById("cuetaOne").innerHTML = "Correct answer: Cueta";
+}
+
+function newFunctionLondon(){
+  document.getElementById("londonOne").innerHTML = "Correct answer: London";
+}
+
+function newFunctionGenoa(){
+  document.getElementById("genoaOne").innerHTML = "Correct answer: Genoa";
+}
+
+function newFunctionVenice(){
+  document.getElementById("veniceOne").innerHTML = "Correct answer: Venice";
+}
+
+function newFunctionNorthTwo(){
+  document.getElementById("northTwoOne").innerHTML = "Correct answer: North America";
+}
+
+function newFunctionMain(){
+  document.getElementById("mainOne").innerHTML = "Correct answer: Spanish Main";
+}
+
+function newFunctionTorde(){
+  document.getElementById("tordeOne").innerHTML = "Correct answer: Tordesillas Line";
+}
+
+function myFunctionAwesome(){
+  document.getElementById("sar").value = " ";
+}
+
+
+
+
+
+
+
+
+function newFunctionOne(){
+let img = document.createElement("img");
+img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbs8Kg6C1zcXYsDaEXp1pNODQERMvkUuCKMA&usqp=CAU";
+
+let src = document.getElementById("demoNewTwo");
+src.appendChild(img);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+</body>
